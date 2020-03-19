@@ -19,7 +19,7 @@ fun main(args: Array<String>) {
             try {
                 project.create()
             } catch (e: Exception) {
-                println("There was an error creating the project")
+                println(e)
             }
         }
     } catch (e: InvalidArgumentException) {
