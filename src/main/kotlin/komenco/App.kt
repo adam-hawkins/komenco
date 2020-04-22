@@ -5,13 +5,6 @@ import com.xenomachina.argparser.InvalidArgumentException
 import com.xenomachina.argparser.MissingRequiredPositionalArgumentException
 import com.xenomachina.argparser.MissingValueException
 
-class App {
-    val notGreeting: String
-        get() {
-            return ""
-        }
-}
-
 fun main(args: Array<String>) {
     try {
         ArgParser(args).parseInto(::Args).run {

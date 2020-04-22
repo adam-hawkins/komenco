@@ -3,10 +3,6 @@ import com.xenomachina.argparser.ArgParser
 import com.xenomachina.argparser.InvalidArgumentException
 import com.xenomachina.argparser.default
 
-interface FakeProject {
-    fun initProject(): Boolean
-}
-
 enum class AppType(val type: String) {
     WEB("web"),
     CLI("cli"),
