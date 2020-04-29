@@ -6,9 +6,5 @@ package komenco
 import kotlin.test.Test
 import kotlin.test.assertNotNull
 
-class AppTest {
-    @Test fun testAppHasAGreeting() {
-        val classUnderTest = App()
-        assertNotNull(classUnderTest.notGreeting, "app should have a greeting")
-    }
-}
+
+class AppTest
